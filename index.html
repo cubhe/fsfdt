@@ -441,21 +441,21 @@
       <div class="related-work">
         <div class="work-item">
           <a href="https://arxiv.org/abs/2104.09125">
-            <img src="./static/images/fig.ucd.jpg" alt="Progressive Encoding for Neural Optimization" style="width: 100px; height: auto;">
+            <img src="./static/images/fig.ucd.jpg" alt="Progressive Encoding for Neural Optimization">
           </a>
           <p class="caption">Progressive Encoding for Neural Optimization</p>
           <p>Introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.</p>
         </div>
         <div class="work-item">
           <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">
-            <img src="./static/images/fig.mdck.jpg" alt="D-NeRF" style="width: 100px; height: auto;">
+            <img src="./static/images/fig.mdck.jpg" alt="D-NeRF">
           </a>
           <p class="caption">D-NeRF</p>
           <p>Uses deformation fields to model non-rigid scenes.</p>
         </div>
         <div class="work-item">
           <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">
-            <img src="./static/images/fig.tube.jpg" alt="NR-NeRF" style="width: 100px; height: auto;">
+            <img src="./static/images/fig.tube.jpg" alt="NR-NeRF">
           </a>
           <p class="caption">NR-NeRF</p>
           <p>Also uses deformation fields to model non-rigid scenes.</p>
@@ -474,10 +474,13 @@
   .work-item {
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
   }
   .work-item img {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
   .caption {
     font-weight: bold;
@@ -485,22 +488,9 @@
   }
 </style>
 
+
+
     
-    <style>
-      .related-work {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-      .work-item {
-        text-align: center;
-        max-width: 150px;
-      }
-      .work-item img {
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
