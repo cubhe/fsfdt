@@ -369,7 +369,7 @@
         structure and z-section ability. 
       </p>
       <div class="related-work">
-        <h3 class="title is-4">UCDavis 1</h3>
+        <h3 class="title is-4">UCDavis</h3>
         <div class="work-item">
           <a href="https://arxiv.org/abs/2104.09125">
             <img src="./static/images/fig.ucd.jpg" alt="Progressive Encoding for Neural Optimization">
@@ -407,7 +407,7 @@
         <!-- Visual Effects. -->
         <div class="column">
           <div class="content">
-            <h2 class="title is-3">Axial Rotational Perspective</h2>
+            <h3 class="title is-4">2D view</h3>
   <!--           <p>
               Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
               would be impossible without nerfies since it would require going through a wall.
@@ -423,7 +423,7 @@
         <!-- Matting. -->
         <div class="column">
           <div class="content">
-          <h2 class="title is-3">Radial Rotational Perspective</h2>
+          <h3 class="title is-4">3D view</h3>
           <div class="columns is-centered">
   <!--           <div class="column content"> -->
   <!--             <p>
@@ -445,6 +445,7 @@
 
         
         <div class="work-item">
+          <h3 class="title is-4">3D tube</h3>
           <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">
             <img src="./static/images/fig.tube.jpg" alt="NR-NeRF">
           </a>
@@ -456,6 +457,45 @@
             <span class="caption">e</span>, Zoomed-in details of the highlighted regions in <span class="caption">c</span> and <span class="caption">d</span>, showing three different morphological fine structures and variations in RI: 
             the top image corresponds to the green box in (d), the middle image to the orange box in (d), and the bottom image to the red box in (c).</p>
         </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="title is-4">Axial Rotational Perspective</h3>
+  <!--           <p>
+              Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+              would be impossible without nerfies since it would require going through a wall.
+            </p> -->
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/3dtube0721_11.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!--/ Visual Effects. -->
+  
+        <!-- Matting. -->
+        <div class="column">
+          <div class="content">
+          <h3 class="title is-4">Radial Rotational Perspective</h3>
+          <div class="columns is-centered">
+  <!--           <div class="column content"> -->
+  <!--             <p>
+                As a byproduct of our method, we can also solve the matting problem by ignoring
+                samples that fall outside of a bounding box during rendering.
+              </p> -->
+              <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/3dtube0721_2.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+
+
+        
       </div>
     </div>
   </div>
@@ -490,40 +530,7 @@
     <div class="columns is-centered">
 
       <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Axial Rotational Perspective</h2>
-<!--           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p> -->
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/3dtube0721_11.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <div class="content">
-        <h2 class="title is-3">Radial Rotational Perspective</h2>
-        <div class="columns is-centered">
-<!--           <div class="column content"> -->
-<!--             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p> -->
-            <video id="matting-video" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/3dtube0721_2.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
+      
     
     <!-- Concurrent Work. -->
 <!--     <div class="columns is-centered">
