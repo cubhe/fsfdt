@@ -258,10 +258,31 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Solving the 3D refractive index (RI) from fluorescence images provides both fluorescence 
+            and phase information about biological samples. However, accurately retrieving the phase of 
+            partially coherent light to reconstruct the unknown RI of label-free objects over a large volume 
+            at high-resolution in the reflection mode remain challenging. 
           </p>
           <p>
+            Thus, we developed fluorescence diffraction tomography (FDT) with explicit neural fields 
+            that can reconstruct 3D RI from defocused fluorescence images. We also develop many power tools 
+            like the coarse-to-fine modeling, self-calibration, differential multi-slice rendering model, 
+            and partial coherent mask to facilitate the functionality of the FDT. The explicit representation 
+            efficiently integrates with coarse-to-fine modeling to achieve high-speed, high-resolution reconstruction. 
+            Moreover, we advance the multi-slice equation to differential multi-slice rendering model which enables 
+            the self-calibration method for the extrinsic and intrinsic parameters of the system to achieve high accuracy
+            forward image prediction and RI reconstruction. To address the model discrepancies between the coherent light-based 
+            model and the partial coherent light source, we develop digital masks instead of modeling 
+            the partial coherent light source, which is more computationally efficient. 
+          </p>
+          <p>  
+            Our method successfully reconstructed label-free 3D muscle cells in a 530 × 530 × 300 $\mu m^3$ volume 
+            at 1024×1024 pixels across 24 layers from fluorescence images. FDT achieves high fidelity 3D RI reconstruction 
+            of bulky and heterogeneous biological samples.
+          </p>
+<!--           <p> 
+            
+            
             Our approach augments neural radiance fields
             (NeRF) by optimizing an
             additional continuous volumetric deformation field that warps each observed point into a
@@ -283,7 +304,7 @@
             images of the same pose at different viewpoints. We show that our method faithfully
             reconstructs non-rigidly deforming scenes and reproduces unseen views with high
             fidelity.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
