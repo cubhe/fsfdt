@@ -430,64 +430,61 @@
     </div>
     <!--/ Animation. -->
 
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-    
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <div class="related-work">
-            <div class="work-item">
-              <a href="https://arxiv.org/abs/2104.09125">
-                <img src="./static/images/fig.ucd.jpg" alt="Progressive Encoding for Neural Optimization" style="width: 100px; height: auto;">
-                Progressive Encoding for Neural Optimization
-              </a>
-              <p>Introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.</p>
-            </div>
-            <div class="work-item">
-              <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">
-                <img src="./static/images/fig.mdck.jpg" alt="D-NeRF" style="width: 100px; height: auto;">
-                D-NeRF
-              </a>
-              <p>Uses deformation fields to model non-rigid scenes.</p>
-            </div>
-            <div class="work-item">
-              <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">
-                <img src="./static/images/fig.tube.jpg" alt="NR-NeRF" style="width: 100px; height: auto;">
-                NR-NeRF
-              </a>
-              <p>Also uses deformation fields to model non-rigid scenes.</p>
-            </div>
-<!--             <div class="work-item">
-              <a href="https://video-nerf.github.io/">
-                <img src="./path/to/your/image4.jpg" alt="Video-NeRF" style="width: 100px; height: auto;">
-                Video-NeRF
-              </a>
-              <p>Models videos with a NeRF by directly modulating the density.</p>
-            </div>
-            <div class="work-item">
-              <a href="https://www.cs.cornell.edu/~zl548/NSFF/">
-                <img src="./path/to/your/image5.jpg" alt="NSFF" style="width: 100px; height: auto;">
-                NSFF
-              </a>
-              <p>Another work modeling videos with NeRF.</p>
-            </div>
-            <div class="work-item">
-              <a href="https://neural-3d-video.github.io/">
-                <img src="./path/to/your/image6.jpg" alt="DyNeRF" style="width: 100px; height: auto;">
-                DyNeRF
-              </a>
-              <p>Yet another work modeling videos with NeRF.</p>
-            </div> -->
-          </div>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
+<div class="columns is-centered">
+  <div class="column is-full-width">
+    <h2 class="title is-3">Related Links</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        There's a lot of excellent work that was introduced around the same time as ours.
+      </p>
+      <div class="related-work">
+        <div class="work-item">
+          <a href="https://arxiv.org/abs/2104.09125">
+            <img src="./static/images/fig.ucd.jpg" alt="Progressive Encoding for Neural Optimization" style="width: 100px; height: auto;">
+          </a>
+          <p class="caption">Progressive Encoding for Neural Optimization</p>
+          <p>Introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.</p>
+        </div>
+        <div class="work-item">
+          <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">
+            <img src="./static/images/fig.mdck.jpg" alt="D-NeRF" style="width: 100px; height: auto;">
+          </a>
+          <p class="caption">D-NeRF</p>
+          <p>Uses deformation fields to model non-rigid scenes.</p>
+        </div>
+        <div class="work-item">
+          <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">
+            <img src="./static/images/fig.tube.jpg" alt="NR-NeRF" style="width: 100px; height: auto;">
+          </a>
+          <p class="caption">NR-NeRF</p>
+          <p>Also uses deformation fields to model non-rigid scenes.</p>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<style>
+  .related-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .work-item img {
+    display: block;
+    margin: 0 auto;
+  }
+  .caption {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+</style>
+
     
     <style>
       .related-work {
