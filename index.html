@@ -435,24 +435,6 @@
   }
 </style>
 </div>
-<div class="content has-text-centered video-container">
-  <video id="replay-video1"
-         controls
-         muted
-         preload
-         playsinline>
-    <source src="./static/videos/3dtube0721_1s.mp4"
-            type="video/mp4">
-  </video>
-  <video id="replay-video2"
-         controls
-         muted
-         preload
-         playsinline>
-    <source src="./static/videos/3dtube0721_2.mp4"
-            type="video/mp4">
-  </video>
-</div>
 
 <div class="container is-max-desktop">
 
@@ -461,11 +443,11 @@
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
+          <h2 class="title is-3">Axial Rotational Perspective</h2>
+<!--           <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
-          </p>
+          </p> -->
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/3dtube0721_1s.mp4"
                     type="video/mp4">
@@ -476,15 +458,15 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Radial Rotational Perspective</h2>
         <div class="columns is-centered">
           <div class="column content">
-            <p>
+<!--             <p>
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
-            </p>
+            </p> -->
             <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+              <source src="./static/videos/3dtube0721_2.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -564,12 +546,12 @@
 
         <!-- Re-rendering. -->
         
-        <h3 class="title is-4">Re-rendering the input video</h3>
+<!--         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
             viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
+          </p> -->
         
         <!--/ Re-rendering.
 
