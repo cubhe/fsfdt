@@ -4,11 +4,14 @@ This is the repository that contains source code for the [FDT website](https://c
 
 If you find Nerfies useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@misc{he2024fluorescencediffractiontomographyusing,
+      title={Fluorescence Diffraction Tomography using Explicit Neural Fields}, 
+      author={Renzhi He and Yucheng Li and Junjie Chen and Yi Xue},
+      year={2024},
+      eprint={2407.16657},
+      archivePrefix={arXiv},
+      primaryClass={physics.optics},
+      url={https://arxiv.org/abs/2407.16657}, 
 }
 ```
 
