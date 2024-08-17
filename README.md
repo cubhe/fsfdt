@@ -1,4 +1,4 @@
-# Nerfies
+# FDT
 
 This is the repository that contains source code for the [FDT website](https://cubhe.github.io/fdt/).
 
